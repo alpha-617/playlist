@@ -3,4 +3,4 @@
 
 #EXTINF:-1 group-title="UEFA KOMPETISI" tvg-logo="https://bit.ly/3VlE2by",Demo 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
-http://tow.cdn7-bongakamai.xyz/live/adaptive_bong-2/playlist.m3u8?|Referer=http://bongstreams.com/gamee2.php
+http://tow.cdn7-bongakamai.xyz/live/adaptive_bong-2/playlist.m3u8|Referer=http://bongstreams.com/
