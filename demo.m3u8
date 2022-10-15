@@ -1,4 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2000000
-https://ad2017.vhls.ru.com/ddy3/premium130/tracks-v1a1/mono.m3u8
+#EXTVLCOPT:http-user-agent=REDLINECLIENT
+https://ad2017.vhls.ru.com/ddy3/premium130/tracks-v1a1/mono.m3u8?|referer=https://widevine.licenses4.me/&amp;User-agent=REDLINECLIENT
