@@ -1,5 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
-#EXTINF:-1 tvg-id="GTV.id" status="online",GTV (1080p)
+#EXT-X-STREAM-INF:-1 tvg-id="GTV.id" status="online",GTV (1080p)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://d9se4hqsqt2j2.cloudfront.net/GTV2022.m3u8
