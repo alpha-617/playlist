@@ -14,3 +14,6 @@ http://45.80.181.150:8080/hls/agropolitantv.m3u8
 https://h1.intechmedia.net/intech/ch4.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/LD6Yrnx.png" group-title="SPORTS",Supersport Variety 1 Africa
 https://ad2017.vhls.ru.com/lb/premium416/index.m3u8?|referer=https://widevine.licenses4.me/&amp;User-agent=REDLINECLIENT
+#EXTINF:-1 tvg-logo="https://i.imgur.com/lop2PUy.png" group-title="SPORTS",True Sports 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
+https://sport.livedoomovies.com:4431/02_2sporthd1_720p/chunklist.m3u8|Referer=https://www.movie87hd.com/?r=ajax
