@@ -1,4 +1,3 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Das Erste HD" tvg-id="DasErste.de" group-title="IPTV-DE" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png",UA HD
-pipe://ffmpeg -loglevel fatal -i https://ad2017.vhls.ru.com/lb/premium370/index.m3u8 -user-agent REDLINECLIENT -referer https://widevine.licenses4.me -vcodec copy -acodec copy -metadata service_name=Das\ User-agent2\ HD -metadata service_provider=IPTV-DE -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
-
+#EXTINF:-1 tvg-name="ZDF HD" tvg-id="ZDF.de" group-title="IPTV-DE" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png",ZDF HD
+pipe://ffmpeg -loglevel fatal -user_agent "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3"  -referer https://www.movie87hd.com/?r=ajax -i https://sport.livedoomovies.com:4431/02_PremierHD1_480p/chunklist.m3u8-vcodec copy -acodec copy -metadata service_name=Demo\ HD -f mpegts pipe:1
