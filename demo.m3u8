@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2000000
-https://d9se4hqsqt2j2.cloudfront.net/GTV2022.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/lop2PUy.png" group-title="SPORTS",Demo
+https://ad2017.vhls.ru.com/lb/premium370/index.m3u8?|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36&Referer=https://player.licenses4.me/
