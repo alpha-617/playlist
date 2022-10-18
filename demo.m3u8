@@ -1,5 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://i.imgur.com/lop2PUy.png" group-title="SPORTS",Demo
-#EXTVLCOPT:http-user-agent=REDLINECLIENT
-#EXTVLCOPT:http-referrer=https://widevine.licenses4.me/
-https://ad2017.vhls.ru.com/lb/premium60/index.m3u8
+#EXTINF:-1 tvg-name="Das Erste HD" tvg-id="DasErste.de" group-title="IPTV-DE" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png",UA HD
+pipe://ffmpeg -user-agent REDLINECLIENT -referer https://widevine.licenses4.me/ -loglevel fatal -i https://ad2017.vhls.ru.com/lb/premium370/index.m3u8 -vcodec copy -acodec copy -metadata service_name=Das\ User-agent\ HD -metadata service_provider=IPTV-DE -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
+
