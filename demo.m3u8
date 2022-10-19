@@ -1,3 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Demo" tvg-id="Demo.de" group-title="IPTV-DE" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png",Demo2
-pipe://ffmpeg -loglevel fatal -user_agent "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3" -referer https://www.movie87hd.com/?r=ajax -i https://sport.livedoomovies.com:4431/02_PremierHD1_480p/chunklist.m3u8 -vcodec copy -acodec copy -metadata service_name=Demo\ HD -f mpegts pipe:1
+#EXTINF:-1 group-title="RACE" tvg-logo="https://2.bp.blogspot.com/-TTmmrYrXBOY/USSDhx1mb0I/AAAAAAAAAOU/E0UzNbHwjz8/s1600/MotoGP_by_ospyder.jpg",MOTOGP 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+https://bcovlive-a.akamaihd.net/99545824f51f4c1592b35314c6ece3b0/ap-northeast-1/6271486521001/playlist.m3u8
